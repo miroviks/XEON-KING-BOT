@@ -1,0 +1,9 @@
+[project]
+name = "xeon-king-bot"
+version = "2.0.0"
+description = "Re-generated modular economy core for XEON-KING-BOT"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
