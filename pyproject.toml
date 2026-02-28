@@ -1,0 +1,15 @@
+[project]
+name = "xeon-king-bot"
+version = "2.1.0"
+description = "Regenerated modular economy core with runnable Telegram entrypoint"
+requires-python = ">=3.11"
+dependencies = [
+  "aiogram>=3.7,<4",
+  "python-dotenv>=1.0.1",
+]
+
+[project.scripts]
+xeon-king-bot = "bot.runtime.app:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
